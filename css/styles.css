@@ -1,0 +1,457 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-size: 1.125rem;
+    font-family: 'Average Sans', sans-serif;
+    color: #b4b4b4;
+    font-weight: lighter;
+    letter-spacing: 1px;
+}
+.container{
+    width: 50%;
+    min-width: 750px;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+a{
+    text-decoration: none;
+    color: #545454;
+    font-family: 'Fjalla One', sans-serif;
+    
+}
+h1,h2{
+    color: #545454;
+    margin-bottom: .5em;
+    font-family: 'Fjalla One', sans-serif;
+    font-weight: lighter;
+}
+
+h1{
+    font-size: 2.5rem;
+}
+h2{
+    font-size: 2rem;
+}
+
+img{
+    width: 100%;
+}
+
+hr{
+    color: #b4b4b4;
+    margin-top: -1em;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 1em;
+    width: 50%;
+   
+}
+.horizontal-line{
+    border: .5px solid #b4b4b4;
+    margin-top: -1em;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 1em;
+    width: 50%;
+}
+.vertical-line{
+    border-left: .5px solid #b4b4b4;
+    height: 280px;
+}
+
+.h2-green{
+    color: #25b437;
+}
+
+.btn{
+    background: #25b437;
+    color: #f0f8ff;
+    padding: 0 1.3em;
+    text-transform: uppercase;
+    border-radius: 5px;
+}
+
+header{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.logo-container img{
+    width: 35%;
+    max-width: 300px;
+    height: auto;
+    object-fit: contain;
+}
+
+.navbar{
+    display: flex;
+    margin-bottom: 1em;
+}
+
+nav{
+    display: flex;
+    flex: 5;
+}
+
+.nav-links{
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+    flex: 1;
+}
+
+.nav-item{
+    text-decoration: none;
+    color: #545454;
+    text-transform: uppercase;
+}
+
+.cart{
+    display: flex;
+    flex: 1;
+    justify-content: flex-start;
+}
+
+.cart img{
+    width: 1.5rem;
+    height: 1.5rem;
+}
+
+/* main-container */
+.main-container{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+}
+
+.customer-fav{
+    display: flex;
+    background: #fcf7d9;
+    border: 1px solid #fcf7d9;
+    margin-bottom: 2.5em;
+    position: relative;
+}
+
+.customer-fav-images{
+    border: 1px solid #25b437;
+    border-top-right-radius: 100px;
+    border-bottom-right-radius: 100px;
+    flex: 1;
+    background: #25b437;
+}
+
+.customer-fav-text{
+    margin: auto;
+    text-align: center;
+    flex: 2.5;
+}
+
+.customer-fav-images img{
+    width: 100px;
+    height: 150px;
+    object-fit: cover;
+}
+
+.customer-fav-images .pomade{
+    object-fit: contain;
+    position: absolute;
+    bottom: -25px;
+    left: 70px;
+}
+.customer-fav-images .deodr{
+    object-fit: contain;
+    position: absolute;
+    bottom: 0;
+    left: 140px;
+}
+
+.consultation{
+    display: flex;
+    background: #e83930;
+    margin-bottom: 2.5em;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.cons-title{
+    padding-top: 1em;
+    width: 30%;
+}
+
+.hair-equipment{
+    width: 50%;
+}
+
+.book-now{
+    width: 20%;
+    margin: auto;
+    text-align: center;
+
+}
+
+.hair-equipment img{
+    width: 70%;
+    height: 150px;
+    object-fit: cover;
+
+}
+
+
+/* footer */
+.footer-container{
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+}
+
+.about-us{
+    text-align: center;
+    margin-bottom: 2em;
+}
+
+.about-us p{
+    font-size: larger;
+}
+
+.booking{
+    margin-top: .5em;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.open-times{
+    width: 28%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.feedback{
+    background: #fcf7d9;
+    width: 35%;
+    height: 280px;
+}
+
+.feedback p{
+    padding: .3em;
+    margin: 1.5em 0;
+}
+
+.location{
+    width: 25%;
+}
+
+.open-times img{
+    width: 100%;
+    height: 300px;
+    object-fit: contain;
+}
+
+.location img{
+    width: 100%;
+    height: 200px;
+    object-fit: contain;
+}
+
+.contact{
+    margin: 1em auto;
+}
+
+.post-code{
+    padding: 0 0 0 1em;
+}
+
+/* PRODUCTS */
+
+.container-header{
+    background: #e83930;
+    text-align: center;
+    margin-bottom: 1em;
+}
+
+.container-header h1{
+    color: #f0f8ff;
+}
+
+.products{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: #fcf7d9;
+    margin-bottom: 1em;
+    padding: 1em 0;
+}
+
+.product{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: .3px solid #b4b4b4;
+    margin: 1em .5em;
+}
+
+.product-detail{
+    width: 60%;
+}
+
+.product-detail h2{
+    font-size: 1.7rem;
+    color: #b4b4b4;
+}
+
+.product-detail h2:nth-child(1){
+    color: #545454;
+}
+
+.product-img{
+    width: 35%;
+}
+
+
+.product img{
+    width: 100px;
+    height: 200px;
+    object-fit: contain;
+}
+
+/* BLOG */
+.hair-texture{
+    display: flex;
+    width: 100%
+    margin-top: -1.5em;
+    border-bottom: 1px solid gray;
+}
+
+.texture-img{
+    width: 45%;
+    /* border: 1px solid blue; */
+}
+
+.texture-img img{
+    width: 100%;
+    max-width: 400px;
+    height: 400px;
+    object-fit: cover;
+    /* border: 1px solid red; */
+}
+
+.texture-text{
+    width: 55%;
+    position: relative;
+}
+
+.texture-text h1{
+    font-size: 6.8rem;
+    position: absolute;
+    bottom: 0%;
+    left: -1%;
+    margin-bottom: 0;
+    letter-spacing: 10px;
+    /* border: 1px solid blue; */
+}
+
+.texture-text h1 span{
+    color: #25b437;
+}
+
+.afrohair-style-container{
+    display: flex;
+    flex-direction: column;
+    background: #fcf7d9;
+    padding: .8em 2em 0 2em;
+    margin-bottom: 1em;
+}
+
+.afrohair-style{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: .5em .5em;
+    background: #e83930;
+    margin-bottom: 2em;
+}
+
+.afro-img{
+    width: 15%;
+    /* border: 1px solid black; */
+}
+
+.afro-title{
+    /* border: 1px solid red; */
+    width: 30%;
+}
+
+.afro-text{
+    /* border: 1px solid yellow; */
+    width: 50%;
+}
+
+.afrohair-style img{
+    /* border: 1px solid blue; */
+    width: 140px;
+    height: 150px;
+    object-fit: contain;
+}
+
+.oval{
+    position: absolute;
+}
+.oval-image{
+    /* width: 120px; */
+    position: relative;
+    left: 15%;
+}
+
+
+.afro-text p{
+    font-size: 0.8rem;
+    letter-spacing: 0px;
+}
+
+.afro-title h1{
+    font-size: 3.9rem;
+    text-align: center;
+    margin: 0 auto;
+}
+
+
+/* Services */
+.services{
+    background: #fcf7d9;
+    padding: 1em;
+    position: relative;
+    height: 80vh;
+    max-height: ;
+    margin-bottom: 1em;
+}
+
+.services h1{
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.services p{
+    margin-bottom: 1.5em;
+}
+
+.hairstyle img{
+    position: absolute;
+    bottom: 10%;
+    left: 25%;
+}
+
+
+
+
+
+
+
+
